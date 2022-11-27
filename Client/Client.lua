@@ -30,7 +30,6 @@ function lockVehicleOrAddIt(vehicle, shouldLock)
         if math > 34 then
             SetVehicleDoorsLocked(vehicle, 2)
         end
-        print(math)
     end
 end
 
