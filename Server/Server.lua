@@ -8,7 +8,6 @@ end)
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(1000)
-		local xPlayers = ESX.GetPlayers()
 		TriggerClientEvent("mlrp_locknpccars:addCarSync", -1, LockedVehicles)
 	end
 end)
